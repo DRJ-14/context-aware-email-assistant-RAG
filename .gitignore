@@ -1,0 +1,34 @@
+# --- Private / sensitive data ---
+__MACOSX/
+._*
+.DS_Store
+Takeout/
+*.mbox
+*.eml
+emails*.json
+emails*.csv
+
+# --- Vector DB / local artifacts ---
+chroma*/
+*.sqlite3
+
+# --- Models / checkpoints ---
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+outputs/
+runs/
+
+# --- Secrets ---
+.env
+*.key
+*.pem
+
+# --- Python ---
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+*.pyc
