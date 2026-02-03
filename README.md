@@ -22,3 +22,8 @@ Takeout (.mbox) → Parse/Clean → Chunk → Embed → ChromaDB → Retrieve (t
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
+## Results
+- Enables semantic search + question answering over Gmail Takeout exports while keeping data local.
+- Retrieves top-k relevant email chunks and generates grounded answers with citations to source messages.
+- Designed to avoid committing sensitive data (Takeout/.mbox ignored via .gitignore).
