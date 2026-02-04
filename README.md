@@ -22,6 +22,7 @@ Takeout (.mbox) → Parse/Clean → Chunk → Embed → ChromaDB → Retrieve (t
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
 ## Results
 - Enables semantic search + question answering over Gmail Takeout exports while keeping data local.
